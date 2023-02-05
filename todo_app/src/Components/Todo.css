@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-color: gainsboro;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  margin: 2rem;
+  align-items: center;
+
+  border-radius: 0%;
+}
+
+h2 {
+  font-size: 15px;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+.card-body {
+  width: 100%;
+}
+
+.card-body input {
+  outline: none;
+  padding-left: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.card-body input:focus {
+  border: 1px solid blue;
+  box-shadow: 0.5px 1px blue;
+}
+
+.card-footer {
+  width: 100%;
+
+  background-color: rgb(246, 236, 236);
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  border-right: 1px solid black;
+}
+
+i {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.items {
+  text-align: start;
+  font-size: smaller;
+}
+
+button {
+  outline: none;
+  border: 1px solid transparent;
+  padding: 0 1rem;
+}
+
+button:hover {
+  border: 1px solid grey;
+}
+
+.checkbox input:focus {
+  box-shadow: none;
+}
+.checkbox input,
+h2,
+i {
+  display: flex;
+
+  justify-content: flex-start;
+  width: auto;
+}
+@media (max-width: 760px) {
+}

@@ -1,0 +1,63 @@
+.displayWeather{
+    margin-top: 10px;
+    display: flex;
+  flex-flow: column nowrap;
+}
+
+.displayWeather .main{
+    width: 300px;
+    
+    align-self: center;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    background: rgb(245, 242, 242);
+    border: 1px solid black;
+ display: flex;
+ flex-direction: column;
+ 
+}
+.main_weather{
+  position: absolute;
+top: 60px;
+right: 95px;
+}
+img{
+height: 3rem;
+width: 3rem;
+position: absolute;
+top: 50px;
+right: 50px;
+}
+
+
+.displayWeather .details {
+
+  margin-right: 15px;
+margin-top: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+.displayWeather.details.section-1 {
+  justify-self: right;
+  width: 300px;
+}
+
+h4 {
+  text-align: left;
+  margin-right: 15px;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+td {
+  border-bottom: 2px dashed grey;
+}
+
+ .details span {
+  font-size: 1rem;
+}
+

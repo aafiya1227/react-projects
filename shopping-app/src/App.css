@@ -1,0 +1,32 @@
+.navbar-nav a {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.buton button {
+  width: 156px;
+  margin: 10px;
+}
+.buton {
+  margin-top: 1.5rem;
+}
+
+.box {
+  overflow-y: scroll;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+ .show {
+  height: 59vh;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.buton .activeButton {
+  background-color: rgb(28, 26, 26);
+  color: white;
+}
+

@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+    align-items: center;
+    background-color: rgb(96, 90, 90);
+   
+    
+}
+
+.container .heading{
+    color: grey;
+ font-size: 20px;
+ margin-bottom: 20px;
+ margin-top: 40px;
+}
+
+.container input{
+margin-bottom: 20px;
+border-radius: 50px;
+outline: none;
+border: none;
+height: 30px;
+
+}
+ .search{
+padding-left: 10px;
+ }
+  .notes_editor{
+    display: flex;
+   flex-direction: column;
+
+ }
+
+ .container .textarea{
+resize: none;
+width: 300px;
+height: 140px;
+padding-left: 10px;
+position: relative;
+border: none;
+outline: none;
+ }
+
+ .notes_editor .btn{
+    align-self: flex-end;
+    position: absolute;
+    margin-top: 100px;
+   margin-right: 10px;
+    height: 25px;
+    width: 60px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(111, 92, 92);
+  text-transform: uppercase;
+    
+ }
+
+ .btn:hover{
+    background-color:  rgb(111, 92, 92);
+    height:30px ;
+    width: 100px;
+    font-size: x-large;
+ }
